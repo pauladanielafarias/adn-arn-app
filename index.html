@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+       <title>Codones</title>
+       <meta charset="utf-8">
+       <!--viewport // "user-scalable=no" prevents zooming-->
+       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+ 
+       <!--AFTER LAST DEBUG DELETE THIS META-website reloaded from the web server with every page view. This leads to longer loading times, but on the other hand, it can be very useful, for example, if a web page's content is constantly being updated.-->
+           <meta http-equiv="cache-control" content="no-cache"/>
+ 
+       <!--meta to make the status bar translucent in the phone / full-screen browsing-->
+       <meta name="apple-mobile-web-app-capable" content="yes">
+       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+ 
+       <!--Adds An iPhone And iPad Icon for Your Website-->
+       <link rel="apple-touch-icon" href="style/images/logo.png" />
+       <!--Adds An Android Icon for Your Website-->
+       <link rel="apple-touch-icon-precomposed" href="style/images/logo.png" />
+ 
+       <!-- Add to homescreen for Chrome on Android -->
+       <meta name="mobile-web-app-capable" content="yes">
+       <meta name="application-name" content="Herencia genética">
+       <meta name="theme-color" content="#673ab7">
+       <link rel="icon" type="image/png" href="style/images/logo.png" sizes="16x16 32x32" />
+ 
+       <!-- Add to homescreen for Safari on iOS -->
+       <meta name="apple-mobile-web-app-title" content="Herencia genética">
+       <meta name="apple-mobile-web-app-status-bar-style" content="#673ab7">
+ 
+       <!--w3.css stylesheet and color libraries-->
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
+
+       <!--font awesome v5.8.1 (icons)-->
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+        <!-- fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+       
+
+       <!--my css- created in another file named main.css-->
+       <link href="style/main.css" rel="stylesheet" type="text/css" />
+
+        <!-- font awesome clases -->
+        <link href="style/font-awesome.css" rel="stylesheet" type="text/css" />
+
+        <!-- sweet alert -->
+        <link rel="stylesheet" href="sweetalert2.min.css">
+
+ 
+   </head>
+
+    <body>
+        <div class="w3-container w3-mobile" id="app"> <!--1st div-->
+
+        <!-- ----------------------- PAGES ----------------------- -->
+
+        <div id="pages">
+            
+            <!-- ----------------------- INICIO ----------------------- -->
+
+            <div id="home" class="current">
+                <h3 class="w3-margin"><b>Traducí tus codones</b> </h3>
+                <div class="w3-row-padding">
+                    <div class="w3-half">
+                        <p>Elegí una opción para traducirlos</p>
+                    </div>
+                
+                    <div class="w3-half">
+                        <button href="#adn1" onclick="showCurrent('#adn1')"
+                            class="w3-btn w3-border-deep-purple w3-deep-purple w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-round-xlarge w3-margin w3-hover-opacity w3-xlarge">
+                            ADN a ARNm
+                        </button> <br>
+            
+                        <button onclick="showCurrent('#adn2')" 
+                            class="w3-btn w3-border-indigo w3-deep-purple w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-round-xlarge w3-margin w3-hover-opacity w3-xlarge">
+                            ADN a ARNt
+                        </button> <br>
+            
+                        <button onclick="showCurrent('#arn_m')"
+                            class="w3-btn w3-border-deep-purple w3-deep-purple w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-round-xlarge w3-margin w3-hover-opacity w3-xlarge">
+                            ARNm a ADN
+                        </button> <br>
+            
+                        <button onclick="showCurrent('#arn_t')"
+                            class="w3-btn w3-border-deep-purple w3-deep-purple w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-round-xlarge w3-margin w3-hover-opacity w3-xlarge">
+                            ARNt a ADN
+                        </button> <br>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- ----------------------- ADN a ARN (#adn1) ----------------------- -->
+        
+            <div id="adn1" class="">
+                <div>
+                    <button onclick="showCurrent('#home')">Home</button>
+                </div>
+                <h3 class="w3-margin"><b>ADN a ARNm</b> </h3>
+        
+                <div id="adn1">
+                    <form action="">
+                        <label class="w3-margin">
+                            Codón de ADN que se quiere transcribir a ARNm
+                            <input class="w3-input w3-margin" type="text" maxlength="3" name="adn1" required>
+                        </label>
+                    </form><br>
+        
+                    <button
+                        class=" w3-btn w3-border-deep-purple w3-deep-purple w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-round-xlarge w3-hover-opacity w3-xlarge"
+                        onclick="adn1Resultado()"> Ver resultado</button>
+        
+                </div>
+        
+        
+                <div id="resultado" class="w3-margin w3-padding"></div>
+            </div>
+
+        </div>
+
+
+
+
+        </div> <!--last div -->
+ 
+
+
+    <!-- Vue.js development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+     <!--sweet alert-->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+     <script src="sweetalert2.min.js"></script>
+     
+
+    <!--w3.js script-->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+     <!--aminoacidos.js script-->
+     <script src="scripts/aminoacidos.js"></script>
+
+    <!--main.js script-->
+    <script src="scripts/main.js"></script>
+   
+
+
+    </body>
+</html>

@@ -1,0 +1,20 @@
+/*---- GENERAL ----*/
+body{
+    background-color: thistle;
+}
+
+.w3-input{
+    width: 80%;
+}
+
+
+/*---- SHOW CURRENT ----*/
+
+#pages > div{
+    display:none;
+}
+
+#pages > div.current {
+    display: block;
+}
+
