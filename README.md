@@ -4,14 +4,12 @@
 <br>
 
 
-# :adn: ADN-ARN App 
+# :dna: ADN-ARN App 
 
 <img alt="Repo Size" src="https://img.shields.io/github/repo-size/pauladanielafarias/adn-arn-app?style=flat&logo=github">  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/pauladanielafarias/curso_fullstack_php">
 
 ### Web app para transcribir codones de ADN a ARNm, devolviendo la transcripción y el aminoácido que generaría ese codón.
 - La web app está en español.
-
-También se pueden ver los distintos ejercicios y proyectos que realicé, en mi carpeta de GitHub [projects](/projects).
 
 #### Web app to transcribe codons from DNA to mRNA, returning the transcript and the amino acid that would generate that codon.
 - The web app is in Spanish.
