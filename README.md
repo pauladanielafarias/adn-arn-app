@@ -1,6 +1,6 @@
 <!--Create Badges on https://pufler.dev/git-badges/ and https://shields.io/category/social-->
 
-<img align="right" src="https://badges.pufler.dev/created/pauladanielafarias/adn-arn-app?style=social&color=black&logo=github"> <img align="right" src="https://badges.pufler.dev/visits/pauladanielafarias/adn-arn-app?style=social&color=purple&logo=github"> <a src="https://github.com/pauladanielafarias/?tab=follow"><img align="right" src="https://img.shields.io/github/followers/pauladanielafarias?label=Follow&style=social"></a> 
+<img alt="Repository created date" align="right" src="https://badges.pufler.dev/created/pauladanielafarias/adn-arn-app?style=social&color=black&logo=github"> <img alt="Repository visits" align="right" src="https://badges.pufler.dev/visits/pauladanielafarias/adn-arn-app?style=social&color=purple&logo=github"> <a src="https://github.com/pauladanielafarias/?tab=follow"><img alt="GitHub Follow" align="right" src="https://img.shields.io/github/followers/pauladanielafarias?label=Follow&style=social"></a> 
 <br>
 
 
@@ -16,7 +16,7 @@
 
 <br>
 
-### :computer: Tecnologías utilizadas: <img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/adn-arn-app/master?&logo=codefactor&logoColor=green"> <img align="center" alt="GitHub language count" src="https://img.shields.io/github/languages/count/pauladanielafarias/adn-arn-app">  <img align="center" alt="GitHub top language" src="https://img.shields.io/github/languages/top/pauladanielafarias/adn-arn-app">
+### :computer: Tecnologías utilizadas: <img alt="CodeFactor Grade" align="center" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/adn-arn-app/master?&logo=codefactor&logoColor=green"> <img alt="GitHub language count" align="center" src="https://img.shields.io/github/languages/count/pauladanielafarias/adn-arn-app">  <img alt="GitHub top language" align="center" src="https://img.shields.io/github/languages/top/pauladanielafarias/adn-arn-app">
 
 - **Front-end:** 
   - <img width="2%" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"> HTML5
