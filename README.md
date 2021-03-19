@@ -22,7 +22,7 @@
   - <img width="2%" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"> HTML5
   - <img width="2%" src="https://github.com/pauladanielafarias/pauladanielafarias/blob/master/images/css3-sm.png"> CSS3
   - <img width="2%" src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"> JavaScript
-  - <img width="2%" src="https://www.vectorlogo.zone/logos/json/json-ar21.svg"> json
+  - <img width="2%" src="https://www.vectorlogo.zone/logos/json/json-icon.svg"> json
 
   <br>
   
