@@ -1,6 +1,6 @@
 <!--Create Badges on https://pufler.dev/git-badges/ and https://shields.io/category/social-->
 
-<img align="right" src="https://badges.pufler.dev/created/pauladanielafarias/adn-arn-app?style=social&color=black&logo=github"> <img align="right" src="https://badges.pufler.dev/visits/pauladanielafarias/curso_fullstack_php?style=social&color=purple&logo=github"> <a src="https://github.com/pauladanielafarias/?tab=follow"><img align="right" src="https://img.shields.io/github/followers/pauladanielafarias?label=Follow&style=social"></a> 
+<img align="right" src="https://badges.pufler.dev/created/pauladanielafarias/adn-arn-app?style=social&color=black&logo=github"> <img align="right" src="https://badges.pufler.dev/visits/pauladanielafarias/adn-arn-app?style=social&color=purple&logo=github"> <a src="https://github.com/pauladanielafarias/?tab=follow"><img align="right" src="https://img.shields.io/github/followers/pauladanielafarias?label=Follow&style=social"></a> 
 <br>
 
 
